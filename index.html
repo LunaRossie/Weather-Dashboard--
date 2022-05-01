@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather app</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <section class="main">
+            <section class="inputs">
+                <input type="text" placeholder="Enter any city..." id="cityinput">
+                <input type="submit" value="Submit" id="add">
+                <button placeholder="submit" id="add"></button>
+            </section>
+            <section class="display">
+                <div class="wrapper">
+                    <h2 id="cityoutput"></h2>
+                    <p id="description"></p>
+                    <p id="temp"></p>
+                    <p id="wind"></p>
+
+                </div>
+            </section>
+        </section>
+
+    </div>
+    <div class="future-forecast">
+
+        <div class="weather-forecast" id="weather-forecast">
+            <div class="weather-forecast-item" id="current-temp">
+                <div class="day">Monday</div>
+                <img src="http://openweathermap.org/img/wn/11d@2x.png" alt="weather Icon" class="w-icon">
+                <div class="temp">Night - 35.6°C</div>
+                <div class="temp">Day - 45.6°C</div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Tuesday</div>
+                <img src="http://openweathermap.org/img/wn/11d@2x.png" alt="weather Icon" class="w-icon">
+                <div class="temp">Night - 35.6°C</div>
+                <div class="temp">Day - 45.6°C</div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Wednesday</div>
+                <img src="http://openweathermap.org/img/wn/11d@2x.png" alt="weather Icon" class="w-icon">
+                <div class="temp">Night - 35.6°C</div>
+                <div class="temp">Day - 45.6°C</div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+            </div>
+
+            <div class="weather-forecast-item">
+                <div class="day">Thursday</div>
+                <img src="http://openweathermap.org/img/wn/11d@2x.png" alt="weather Icon" class="w-icon">
+                <div class="temp">Night - 35.6°C</div>
+                <div class="temp">Day - 45.6°C</div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+            </div>
+
+            <div class="weather-forecast-item">
+                <div class="day">Friday</div>
+                <img src="http://openweathermap.org/img/wn/11d@2x.png" alt="weather Icon" class="w-icon">
+                <div class="temp">Night - 35.6°C</div>
+                <div class="temp">Day - 45.6°C</div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+            </div>
+            <script>
+                let search = document.querySelector(".search");
+                let clear = document.querySelector(".clear");
+
+                search.submit = function () {
+                    document.querySelector(".container").classList.toggle('active');
+                }
+                clear.submit = function () {
+                    document.getElementById("search").value = "";
+                }
+            </script>
+</body>
+
+</html>
