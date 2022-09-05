@@ -5,8 +5,6 @@ Table of Contents
 # Github 
 # License
 # Deployed Site
-# Heroku URL
-# Video Link
 # Questions
 
 ## Description
