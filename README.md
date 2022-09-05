@@ -1,18 +1,33 @@
 # Weather-Dashboard--
 
-Data Assimilation are used to make better forecasts. The basic elements of weather forecasting is to analyze and interpret conditions; by observing and measuring the records of data throughout predictions and patterns.
+Table of Contents
+# Description
+# Github 
+# License
+# Deployed Site
+# Heroku URL
+# Video Link
+# Questions
 
-"apiKey": "3045dd712ffe6e702e3245525ac7fa38"
-"apiKey": "c4deb69bec17d2482d93e4aeb6338604"
+## Description
 
 
-https://api.openweathermap.org/data/2.5/weather?q= 
+The Weather Dashboard is an application to find a weather condition of a given city both the current and 5-Days forecast at the same time. The API used to get response data object is retrieved from the Open Weather APi. 
 
-https://react-icons.github.io/react-icons
+## Github repo
+
+https://github.com/LunaRossie/Weather-Dashboard--
 
 
-## Mock-Up
+## License
 
-The following image shows the web application's appearance and functionality:
+This project is licensed under MIT.
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+
+## Deployed Site
+
+https://lunarossie.github.io/Weather-Dashboard--/
+
+## Questions
+
+If you have any questions regarding the project, please reach out via email "Terminalbash2022@outlook.com". https://github.com/LunaRossie/Weather-Dashboard--
